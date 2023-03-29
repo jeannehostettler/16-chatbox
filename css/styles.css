@@ -33,7 +33,7 @@ img {
   margin-bottom: 20px;
   border-radius: 5px 5px 5px 0;
   outline: 1px white solid;
-  outline-offset: 2px;
+  outline-offset: 3px;
   flex-grow: 1;
   align-self: flex-start;
 }
@@ -45,7 +45,7 @@ img {
   margin-bottom: 20px;
   border-radius: 5px 5px 0 5px;
   outline: 1px white solid;
-  outline-offset: 2px;
+  outline-offset: 3px;
   flex-grow: 1;
   align-self: flex-end;
 }
