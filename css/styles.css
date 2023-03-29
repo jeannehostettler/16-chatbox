@@ -9,6 +9,11 @@ img {
   max-width: 100%;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
 .chat-ingenieur {
   background-color: #13727a;
   padding: 10px;
@@ -17,9 +22,6 @@ img {
   border-radius: 5px 5px 5px 0;
   outline: 1px white solid;
   outline-offset: 2px;
+  flex-grow: 1;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-}
