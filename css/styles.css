@@ -18,6 +18,7 @@ img {
 .message-content {
   margin: 0 0 0 0;
   padding: 5px 5px;
+  font-family: monospace;
 }
 
 .message-box-ingenieur {
@@ -33,7 +34,7 @@ img {
 }
 
 .message-box-hero {
-  background-color: #13727a;
+  background-color: #2c75ff;
   padding: 5px;
   color: white;
   margin-bottom: 20px;
