@@ -16,5 +16,10 @@ img {
   margin-bottom: 10px;
   border-radius: 5px 5px 5px 0;
   outline: 1px white solid;
-  outline-offset: 1px;
+  outline-offset: 2px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
 }
