@@ -1,11 +1,23 @@
 body {
   max-width: 320px;
   margin: auto;
-  background-image: url(../img/background.jpg);
+  background-image: url(../img/background.png);
 }
 
 html {
   background-color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #13727a;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+  color: white;
 }
 
 img {
@@ -13,13 +25,17 @@ img {
   max-width: 100%;
 }
 
-header {
-  background-color: blue;
-  margin-bottom: 20px;
-  position: sticky;
-  top: 0;
-  color: white;
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  margin-left: 10px;
 }
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
 
 .chatbox-container {
   display: flex;
@@ -47,19 +63,19 @@ header {
   margin-bottom: 20px;
   border-radius: 5px 5px 5px 0;
   outline: 1px white solid;
-  outline-offset: 3px;
+  outline-offset: 2px;
   flex-grow: 1;
   align-self: flex-start;
 }
 
 .message-box-hero {
-  background-color: #13727a;
+  background-color: #048B9A;
   padding: 5px;
   color: white;
   margin-bottom: 20px;
   border-radius: 5px 5px 0 5px;
   outline: 1px white solid;
-  outline-offset: 3px;
+  outline-offset: 2px;
   flex-grow: 1;
   align-self: flex-end;
 }
@@ -69,4 +85,13 @@ header {
   margin-bottom: 20px;
   font-family: monospace;
   color: white;
+}
+
+footer {
+  background-color: #005c96;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+  bottom: 0;
 }
